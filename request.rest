@@ -135,3 +135,9 @@ content-type: application/json
       }
     ]
   }
+
+###
+GET http://localhost:3001/api/modules
+
+###
+DELETE  http://localhost:3001/api/modules/1

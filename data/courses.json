@@ -10,11 +10,7 @@
           {
             "title": "Understanding HTML Structure",
             "description": "Learn about HTML tags and document structure",
-            "topics": [
-              "HTML tags",
-              "Document structure",
-              "Semantic HTML"
-            ],
+            "topics": ["HTML tags", "Document structure", "Semantic HTML"],
             "content": [
               {
                 "type": "text",
@@ -29,11 +25,7 @@
           {
             "title": "Working with Forms",
             "description": "Create and style HTML forms",
-            "topics": [
-              "Form elements",
-              "Input types",
-              "Form validation"
-            ],
+            "topics": ["Form elements", "Input types", "Form validation"],
             "content": [
               {
                 "type": "text",
@@ -53,11 +45,7 @@
           {
             "title": "CSS Selectors and Properties",
             "description": "Master CSS selectors and common properties",
-            "topics": [
-              "Selectors",
-              "Box model",
-              "Colors and typography"
-            ],
+            "topics": ["Selectors", "Box model", "Colors and typography"],
             "content": [
               {
                 "type": "text",
@@ -84,11 +72,7 @@
           {
             "title": "Understanding HTML Structure",
             "description": "Learn about HTML tags and document structure",
-            "topics": [
-              "HTML tags",
-              "Document structure",
-              "Semantic HTML"
-            ],
+            "topics": ["HTML tags", "Document structure", "Semantic HTML"],
             "content": [
               {
                 "type": "text",
@@ -103,11 +87,7 @@
           {
             "title": "Working with Forms",
             "description": "Create and style HTML forms",
-            "topics": [
-              "Form elements",
-              "Input types",
-              "Form validation"
-            ],
+            "topics": ["Form elements", "Input types", "Form validation"],
             "content": [
               {
                 "type": "text",
@@ -127,11 +107,7 @@
           {
             "title": "CSS Selectors and Properties",
             "description": "Master CSS selectors and common properties",
-            "topics": [
-              "Selectors",
-              "Box model",
-              "Colors and typography"
-            ],
+            "topics": ["Selectors", "Box model", "Colors and typography"],
             "content": [
               {
                 "type": "text",

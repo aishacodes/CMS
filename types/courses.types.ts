@@ -4,6 +4,7 @@ export interface IContent {
 }
 
 export interface ILesson {
+  id: number;
   title: string;
   description: string;
   topics: string[];
@@ -11,6 +12,7 @@ export interface ILesson {
 }
 
 export interface IModule {
+  id: number;
   title: string;
   lessons: ILesson[];
 }

@@ -1,4 +1,6 @@
 import courseRoutes from "./routes/courses.routes";
+import lessonRoutes from "./routes/lessons.router";
+import moduleRoutes from "./routes/modules.router";
 
 import express, { Application } from "express";
 
@@ -11,6 +13,8 @@ app.get("/", (request, response) => {
 });
 
 app.use("/api", courseRoutes);
+app.use("/api", moduleRoutes);
+app.use("/api", lessonRoutes);
 
 const PORT = 3001;
 app.listen(PORT, () => {
