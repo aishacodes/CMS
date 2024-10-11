@@ -1,23 +1,23 @@
-export interface Content {
+export interface IContent {
   type: "text" | "video" | "audio";
   data: string;
 }
 
-export interface Lesson {
+export interface ILesson {
   title: string;
   description: string;
   topics: string[];
-  content: Content[];
+  content: IContent[];
 }
 
-export interface Module {
+export interface IModule {
   title: string;
-  lessons: Lesson[];
+  lessons: ILesson[];
 }
 
-export interface Course {
+export interface ICourse {
   id: number;
   title: string;
   description: string;
-  modules: Module[];
+  modules: IModule[];
 }
