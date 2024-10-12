@@ -1,3 +1,4 @@
+import { unknownEndpoint } from "./middlewares/unknownEndpoint";
 import courseRoutes from "./routes/courses.routes";
 import lessonRoutes from "./routes/lessons.router";
 import moduleRoutes from "./routes/modules.router";
@@ -15,6 +16,7 @@ app.get("/", (request, response) => {
 app.use("/api", courseRoutes);
 app.use("/api", moduleRoutes);
 app.use("/api", lessonRoutes);
+app.use(unknownEndpoint);
 
 const PORT = 3001;
 app.listen(PORT, () => {

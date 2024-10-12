@@ -4,7 +4,7 @@ import { ICourse, ILesson, IModule } from "../types/courses.types";
 const COURSE_FILE = "./data/courses.json";
 
 export const getCousesFromFile = async () => {
-  const courses = await readFile(COURSE_FILE, "utf-8");
+  let courses = await readFile(COURSE_FILE, "utf-8");
   return JSON.parse(courses);
 };
 
@@ -33,3 +33,26 @@ export const getLessonsFromFile = async () => {
 export const addLessonsToFile = async (lessons: ILesson[]) => {
   await writeFile(LESSON_FILE, JSON.stringify(lessons, null, 2));
 };
+
+// export const populateModules = async (courses: ICourse[]) => {
+//   const moduleData = await getModulesFromFile();
+//   return courses.map((course) => {
+//     return {
+//       ...course,
+//       modules: course.modules.map((moduleId) => {
+//         return moduleData.find((module: IModule) => module.id === moduleId);
+//       }),
+//     };
+//   });
+// };
+// export const populateLesson = async (modules: IModule[]) => {
+//   const lessonData = await getLessonsFromFile();
+//   return modules.map((module) => {
+//     return {
+//       ...module,
+//       lessons: module.lessons.map((lessonId) => {
+//         return lessonData.find((lesson: ILesson) => lesson.id === lessonId);
+//       }),
+//     };
+//   });
+// };

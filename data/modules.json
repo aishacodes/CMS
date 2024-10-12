@@ -1,12 +1,16 @@
 [
   {
     "id": 1,
-    "title": "HTML Basics",
+    "title": "HTMLL Basics",
     "lessons": [
       {
         "title": "Understanding HTML Structure",
         "description": "Learn about HTML tags and document structure",
-        "topics": ["HTML tags", "Document structure", "Semantic HTML"],
+        "topics": [
+          "HTML tags",
+          "Document structure",
+          "Semantic HTML"
+        ],
         "content": [
           {
             "type": "text",
@@ -19,10 +23,13 @@
         ]
       },
       {
-        "id": 2,
         "title": "Working with Forms",
         "description": "Create and style HTML forms",
-        "topics": ["Form elements", "Input types", "Form validation"],
+        "topics": [
+          "Form elements",
+          "Input types",
+          "Form validation"
+        ],
         "content": [
           {
             "type": "text",
