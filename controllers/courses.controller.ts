@@ -62,9 +62,14 @@ export const updateCourse = async (req: Request, res: Response) => {
   if (courseIndex !== -1) {
     courses[courseIndex] = { ...courses[courseIndex], ...courseToUpdate };
     await addCoursesToFile(courses);
+
+    res.status(201).json({
+      message: "Course updated succcessfully",
+      course: { ...courses[courseIndex] },
+    });
+  } else {
+    res.status(404).json({
+      message: "Course not found",
+    });
   }
-  res.status(201).json({
-    message: "Course updated succcessfully",
-    course: { ...courses[courseIndex] },
-  });
 };

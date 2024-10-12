@@ -77,16 +77,14 @@ PATCH   http://localhost:3001/api/courses/1
 content-type: application/json
 
  {
-    "id": 1,
-    "description": "Learn the fundamentals of web development, covering HTML, CSS, and JavaScript.",
-   
+    "description": "Learn the fundamentals of web development, covering HTML, CSS, and JavaScript."
   }
 
 ###
 GET http://localhost:3001/api/modules
 
 ###
-DELETE  http://localhost:3001/api/modules/1
+DELETE  http://localhost:3001/api/modules/5
 
 ###
 POST  http://localhost:3001/api/modules
