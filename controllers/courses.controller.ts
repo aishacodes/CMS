@@ -63,13 +63,19 @@ export const deleteCourse = async (
   next: NextFunction
 ) => {
   try {
-    const courseId = req.params.id;
+    const courseId = Number(req.params.id);
     let courses = await getCousesFromFile();
-    courses = courses.filter(
-      (course: ICourse) => course.id !== Number(courseId)
+    const courseExist = courses.find(
+      (course: ICourse) => course.id === courseId
     );
-    await addCoursesToFile(courses);
-    res.status(204).end();
+    if (courseExist) {
+      courses = courses.filter((course: ICourse) => course.id !== courseId);
+      await addCoursesToFile(courses);
+
+      res.status(204).end();
+    } else {
+      res.status(404).json({ message: "Course not found" });
+    }
   } catch (error) {
     next(error);
   }
