@@ -1,0 +1,5 @@
+2024-10-14 23:41:49 [info]: GET /api/courses
+2024-10-14 23:42:03 [info]: GET /api/courses/1
+2024-10-14 23:42:26 [info]: GET /api/courses
+2024-10-14 23:42:37 [info]: GET /api/courses/1
+2024-10-14 23:42:44 [info]: PATCH /api/courses/1

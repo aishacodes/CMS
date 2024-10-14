@@ -87,7 +87,7 @@ http://localhost:3001/api-docs
 
 ```bash
 ├── controllers/         # Contains logics for handling API requests
-├── data/                # Directory for storing JSON files
+├── data/                # Directory for storing JSON files(courses.json, modules.json, and lessons.json)
 ├── middlewares/         # Custom middleware for validation,swagger config, logging, error handling,
 ├── routes/              # API route definitions and swagger docs
 ├── types/               # TypeScript types  definitions

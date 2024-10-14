@@ -7,10 +7,15 @@ import express, { Application } from "express";
 import swaggerUi from "swagger-ui-express";
 import swaggerJSDoc from "swagger-jsdoc";
 import { swaggerOptions } from "./middlewares/swagger";
+import { requestLogger } from "./middlewares/logger";
+import { logRequests } from "./middlewares/loggers";
 
 const app = express();
 
 app.use(express.json());
+
+app.use(requestLogger);
+app.use(logRequests);
 
 app.get("/", (request, response) => {
   response.send("<h1>Welcome to my servers!</h1>");
@@ -32,3 +37,5 @@ app.use(errorHandler);
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
+
+export default app;

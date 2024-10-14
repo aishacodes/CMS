@@ -15,6 +15,10 @@ export const getCourseById = async (
   try {
     const courseId = Number(req.params.id);
 
+    if (isNaN(courseId)) {
+      res.status(400).json({ message: "Invalid course ID" });
+      return;
+    }
     const courses = await getCousesFromFile();
     const courseExist = courses.find(
       (course: ICourse) => course.id === courseId
@@ -99,7 +103,7 @@ export const updateCourse = async (
       courses[courseIndex] = { ...courses[courseIndex], ...courseToUpdate };
       await addCoursesToFile(courses);
 
-      res.status(201).json({
+      res.status(200).json({
         message: "Course updated succcessfully",
         course: { ...courses[courseIndex] },
       });
