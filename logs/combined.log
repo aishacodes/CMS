@@ -46,3 +46,501 @@
 2024-10-16 19:59:01 [info]: GET /api-docs/swagger-ui-init.js
 2024-10-16 19:59:02 [info]: GET /api
 2024-10-16 19:59:02 [info]: GET /favicon.ico
+2024-10-16 20:33:03 [info]: GET /api-docs/
+2024-10-16 20:33:03 [info]: GET /api-docs/swagger-ui.css
+2024-10-16 20:33:03 [info]: GET /api-docs/swagger-ui-standalone-preset.js
+2024-10-16 20:33:03 [info]: GET /api-docs/swagger-ui-bundle.js
+2024-10-16 20:33:03 [info]: GET /api-docs/swagger-ui-init.js
+2024-10-16 20:33:04 [info]: GET /api-docs/favicon-32x32.png
+2024-10-16 22:13:10 [info]: GET /api/lessons
+2024-10-16 22:13:10 [info]: GET /api/lessons/1
+2024-10-16 22:13:10 [info]: POST /api/lessons
+2024-10-16 22:13:10 [info]: PUT /api/lessons/1
+2024-10-16 22:13:10 [info]: DELETE /api/lessons/1
+2024-10-16 22:13:42 [info]: GET /api/lessons
+2024-10-16 22:13:42 [info]: GET /api/lessons/1
+2024-10-16 22:13:43 [info]: POST /api/lessons
+2024-10-16 22:13:43 [info]: PUT /api/lessons/1
+2024-10-16 22:13:43 [info]: DELETE /api/lessons/1
+2024-10-16 22:13:43 [info]: GET /api/modules
+2024-10-16 22:13:43 [info]: GET /api/modules/1
+2024-10-16 22:13:43 [info]: POST /api/modules
+2024-10-16 22:13:43 [info]: PUT /api/modules/1
+2024-10-16 22:13:43 [info]: DELETE /api/modules/1
+2024-10-16 22:20:03 [info]: GET /api/modules
+2024-10-16 22:20:03 [info]: GET /api/lessons
+2024-10-16 22:20:03 [info]: GET /api/courses
+2024-10-16 22:20:03 [info]: GET /api/modules/1
+2024-10-16 22:20:03 [info]: GET /api/lessons/1
+2024-10-16 22:20:03 [info]: GET /api/courses/1
+2024-10-16 22:20:03 [info]: POST /api/modules
+2024-10-16 22:20:03 [error]: TypeError: Cannot read properties of undefined (reading 'find')
+    at /Users/abdulfatahaishat/Desktop/workspace/coursemanagementsystem/controllers/courses.controller.ts:23:33
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/abdulfatahaishat/Desktop/workspace/coursemanagementsystem/controllers/courses.controller.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-10-16 22:20:03 [info]: POST /api/lessons
+2024-10-16 22:20:03 [info]: GET /api/courses/999
+2024-10-16 22:20:03 [error]: TypeError: Cannot read properties of undefined (reading 'find')
+    at /Users/abdulfatahaishat/Desktop/workspace/coursemanagementsystem/controllers/courses.controller.ts:23:33
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/abdulfatahaishat/Desktop/workspace/coursemanagementsystem/controllers/courses.controller.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-10-16 22:20:03 [info]: GET /api/courses/invalid-id
+2024-10-16 22:20:03 [info]: PATCH /api/modules/1
+2024-10-16 22:20:03 [info]: PATCH /api/lessons/1
+2024-10-16 22:20:03 [info]: DELETE /api/modules/1
+2024-10-16 22:20:03 [info]: DELETE /api/lessons/1
+2024-10-16 22:20:03 [info]: POST /api/courses
+2024-10-16 22:20:03 [error]: TypeError: Cannot read properties of undefined (reading 'length')
+    at /Users/abdulfatahaishat/Desktop/workspace/coursemanagementsystem/controllers/courses.controller.ts:47:15
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/abdulfatahaishat/Desktop/workspace/coursemanagementsystem/controllers/courses.controller.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-10-16 22:20:03 [info]: PATCH /api/courses/1
+2024-10-16 22:20:03 [error]: TypeError: Cannot read properties of undefined (reading 'findIndex')
+    at /Users/abdulfatahaishat/Desktop/workspace/coursemanagementsystem/controllers/courses.controller.ts:98:33
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/abdulfatahaishat/Desktop/workspace/coursemanagementsystem/controllers/courses.controller.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-10-16 22:20:03 [info]: GET /api/courses/999
+2024-10-16 22:20:03 [error]: TypeError: Cannot read properties of undefined (reading 'find')
+    at /Users/abdulfatahaishat/Desktop/workspace/coursemanagementsystem/controllers/courses.controller.ts:23:33
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/abdulfatahaishat/Desktop/workspace/coursemanagementsystem/controllers/courses.controller.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-10-16 22:20:03 [info]: DELETE /api/courses/1
+2024-10-16 22:20:03 [error]: TypeError: Cannot read properties of undefined (reading 'find')
+    at /Users/abdulfatahaishat/Desktop/workspace/coursemanagementsystem/controllers/courses.controller.ts:72:33
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/abdulfatahaishat/Desktop/workspace/coursemanagementsystem/controllers/courses.controller.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-10-16 22:21:31 [info]: GET /api/modules
+2024-10-16 22:21:31 [info]: GET /api/lessons
+2024-10-16 22:21:31 [info]: GET /api/courses
+2024-10-16 22:21:31 [info]: GET /api/modules/1
+2024-10-16 22:21:31 [info]: GET /api/lessons/1
+2024-10-16 22:21:31 [info]: GET /api/courses/1
+2024-10-16 22:21:31 [error]: TypeError: Cannot read properties of undefined (reading 'find')
+    at /Users/abdulfatahaishat/Desktop/workspace/coursemanagementsystem/controllers/courses.controller.ts:23:33
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/abdulfatahaishat/Desktop/workspace/coursemanagementsystem/controllers/courses.controller.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-10-16 22:21:31 [info]: POST /api/modules
+2024-10-16 22:21:31 [info]: POST /api/lessons
+2024-10-16 22:21:31 [info]: GET /api/courses/999
+2024-10-16 22:21:31 [error]: TypeError: Cannot read properties of undefined (reading 'find')
+    at /Users/abdulfatahaishat/Desktop/workspace/coursemanagementsystem/controllers/courses.controller.ts:23:33
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/abdulfatahaishat/Desktop/workspace/coursemanagementsystem/controllers/courses.controller.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-10-16 22:21:31 [info]: GET /api/courses/invalid-id
+2024-10-16 22:21:31 [info]: PATCH /api/lessons/1
+2024-10-16 22:21:31 [info]: PATCH /api/modules/1
+2024-10-16 22:21:31 [info]: DELETE /api/lessons/1
+2024-10-16 22:21:31 [info]: DELETE /api/modules/1
+2024-10-16 22:21:31 [info]: POST /api/courses
+2024-10-16 22:21:31 [error]: TypeError: Cannot read properties of undefined (reading 'length')
+    at /Users/abdulfatahaishat/Desktop/workspace/coursemanagementsystem/controllers/courses.controller.ts:47:15
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/abdulfatahaishat/Desktop/workspace/coursemanagementsystem/controllers/courses.controller.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-10-16 22:21:31 [info]: PATCH /api/courses/1
+2024-10-16 22:21:31 [error]: TypeError: Cannot read properties of undefined (reading 'findIndex')
+    at /Users/abdulfatahaishat/Desktop/workspace/coursemanagementsystem/controllers/courses.controller.ts:98:33
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/abdulfatahaishat/Desktop/workspace/coursemanagementsystem/controllers/courses.controller.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-10-16 22:21:31 [info]: GET /api/courses/999
+2024-10-16 22:21:31 [error]: TypeError: Cannot read properties of undefined (reading 'find')
+    at /Users/abdulfatahaishat/Desktop/workspace/coursemanagementsystem/controllers/courses.controller.ts:23:33
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/abdulfatahaishat/Desktop/workspace/coursemanagementsystem/controllers/courses.controller.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-10-16 22:21:31 [info]: DELETE /api/courses/1
+2024-10-16 22:21:31 [error]: TypeError: Cannot read properties of undefined (reading 'find')
+    at /Users/abdulfatahaishat/Desktop/workspace/coursemanagementsystem/controllers/courses.controller.ts:72:33
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/abdulfatahaishat/Desktop/workspace/coursemanagementsystem/controllers/courses.controller.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-10-16 22:24:43 [info]: GET /api/modules
+2024-10-16 22:24:43 [info]: GET /api/modules/1
+2024-10-16 22:24:43 [info]: POST /api/modules
+2024-10-16 22:24:43 [info]: PATCH /api/modules/1
+2024-10-16 22:24:44 [info]: DELETE /api/modules/1
+2024-10-16 22:24:44 [info]: GET /api/courses
+2024-10-16 22:24:44 [info]: GET /api/courses/1
+2024-10-16 22:24:44 [info]: GET /api/lessons
+2024-10-16 22:24:44 [info]: GET /api/courses/999
+2024-10-16 22:24:44 [info]: GET /api/courses/invalid-id
+2024-10-16 22:24:44 [info]: GET /api/lessons/1
+2024-10-16 22:24:44 [info]: POST /api/courses
+2024-10-16 22:24:44 [info]: GET /api/lessons/999
+2024-10-16 22:24:44 [info]: GET /api/lessons/invalid-id
+2024-10-16 22:24:44 [info]: PATCH /api/courses/1
+2024-10-16 22:24:44 [info]: GET /api/courses/999
+2024-10-16 22:24:44 [info]: DELETE /api/courses/1
+2024-10-16 22:24:44 [info]: POST /api/lessons
+2024-10-16 22:24:44 [info]: PATCH /api/lessons/1
+2024-10-16 22:24:44 [info]: DELETE /api/lessons/1
+2024-10-16 22:25:47 [info]: GET /api/modules
+2024-10-16 22:25:48 [info]: GET /api/modules/1
+2024-10-16 22:25:48 [info]: POST /api/modules
+2024-10-16 22:25:48 [info]: PATCH /api/modules/1
+2024-10-16 22:25:48 [info]: DELETE /api/modules/1
+2024-10-16 22:25:48 [info]: GET /api/courses
+2024-10-16 22:25:48 [info]: GET /api/lessons
+2024-10-16 22:25:48 [info]: GET /api/courses/1
+2024-10-16 22:25:48 [info]: GET /api/courses/999
+2024-10-16 22:25:48 [info]: GET /api/lessons/1
+2024-10-16 22:25:48 [info]: GET /api/courses/invalid-id
+2024-10-16 22:25:48 [info]: GET /api/lessons/999
+2024-10-16 22:25:48 [info]: GET /api/lessons/invalid-id
+2024-10-16 22:25:48 [info]: POST /api/courses
+2024-10-16 22:25:48 [info]: PATCH /api/courses/1
+2024-10-16 22:25:48 [info]: GET /api/courses/999
+2024-10-16 22:25:48 [info]: POST /api/lessons
+2024-10-16 22:25:48 [info]: DELETE /api/courses/1
+2024-10-16 22:25:48 [info]: PATCH /api/lessons/1
+2024-10-16 22:25:48 [info]: DELETE /api/lessons/1
+2024-10-16 22:26:33 [info]: GET /api/modules
+2024-10-16 22:26:33 [info]: GET /api/courses
+2024-10-16 22:26:33 [info]: GET /api/courses/1
+2024-10-16 22:26:33 [info]: GET /api/modules/1
+2024-10-16 22:26:33 [info]: GET /api/courses/999
+2024-10-16 22:26:33 [info]: GET /api/courses/invalid-id
+2024-10-16 22:26:33 [info]: POST /api/modules
+2024-10-16 22:26:33 [info]: POST /api/courses
+2024-10-16 22:26:33 [info]: PATCH /api/modules/1
+2024-10-16 22:26:33 [info]: PATCH /api/courses/1
+2024-10-16 22:26:33 [info]: DELETE /api/modules/1
+2024-10-16 22:26:33 [info]: GET /api/courses/999
+2024-10-16 22:26:33 [info]: DELETE /api/courses/1
+2024-10-16 22:26:34 [info]: GET /api/lessons
+2024-10-16 22:26:34 [info]: GET /api/lessons/1
+2024-10-16 22:26:34 [info]: GET /api/lessons/999
+2024-10-16 22:26:34 [info]: GET /api/lessons/invalid-id
+2024-10-16 22:26:34 [info]: POST /api/lessons
+2024-10-16 22:26:34 [info]: PATCH /api/lessons/1
+2024-10-16 22:26:34 [info]: DELETE /api/lessons/1
+2024-10-16 22:28:00 [info]: GET /api/modules
+2024-10-16 22:28:00 [info]: GET /api/courses
+2024-10-16 22:28:00 [info]: GET /api/lessons
+2024-10-16 22:28:00 [info]: GET /api/modules/1
+2024-10-16 22:28:00 [info]: GET /api/courses/1
+2024-10-16 22:28:00 [info]: POST /api/modules
+2024-10-16 22:28:00 [info]: GET /api/lessons/1
+2024-10-16 22:28:00 [info]: GET /api/courses/999
+2024-10-16 22:28:00 [info]: GET /api/lessons/999
+2024-10-16 22:28:00 [info]: GET /api/courses/invalid-id
+2024-10-16 22:28:00 [info]: PATCH /api/modules/1
+2024-10-16 22:28:00 [info]: GET /api/lessons/invalid-id
+2024-10-16 22:28:00 [info]: DELETE /api/modules/1
+2024-10-16 22:28:00 [info]: POST /api/courses
+2024-10-16 22:28:00 [info]: POST /api/lessons
+2024-10-16 22:28:00 [info]: PATCH /api/courses/1
+2024-10-16 22:28:00 [info]: GET /api/courses/999
+2024-10-16 22:28:00 [info]: DELETE /api/courses/1
+2024-10-16 22:28:00 [info]: PATCH /api/lessons/1
+2024-10-16 22:28:00 [info]: DELETE /api/lessons/1
+2024-10-16 22:32:13 [info]: GET /api/modules
+2024-10-16 22:32:13 [info]: GET /api/lessons
+2024-10-16 22:32:13 [info]: GET /api/modules/1
+2024-10-16 22:32:13 [info]: GET /api/lessons/1
+2024-10-16 22:32:13 [info]: GET /api/lessons/999
+2024-10-16 22:32:13 [info]: GET /api/lessons/invalid-id
+2024-10-16 22:32:13 [info]: POST /api/modules
+2024-10-16 22:32:13 [info]: PATCH /api/modules/1
+2024-10-16 22:32:13 [info]: POST /api/lessons
+2024-10-16 22:32:13 [info]: DELETE /api/modules/1
+2024-10-16 22:32:13 [info]: PATCH /api/lessons/1
+2024-10-16 22:32:13 [info]: DELETE /api/lessons/1
+2024-10-16 22:32:14 [info]: GET /api/courses
+2024-10-16 22:32:14 [info]: GET /api/courses/1
+2024-10-16 22:32:14 [info]: GET /api/courses/999
+2024-10-16 22:32:14 [info]: GET /api/courses/invalid-id
+2024-10-16 22:32:14 [info]: POST /api/courses
+2024-10-16 22:32:14 [info]: PATCH /api/courses/1
+2024-10-16 22:32:14 [info]: GET /api/courses/999
+2024-10-16 22:32:14 [info]: DELETE /api/courses/1
+2024-10-16 22:32:45 [info]: GET /api/lessons
+2024-10-16 22:32:45 [info]: GET /api/modules
+2024-10-16 22:32:45 [info]: GET /api/modules/1
+2024-10-16 22:32:45 [info]: GET /api/lessons/1
+2024-10-16 22:32:45 [info]: GET /api/lessons/999
+2024-10-16 22:32:45 [info]: GET /api/lessons/invalid-id
+2024-10-16 22:32:45 [info]: POST /api/modules
+2024-10-16 22:32:45 [info]: POST /api/lessons
+2024-10-16 22:32:45 [info]: PATCH /api/modules/1
+2024-10-16 22:32:45 [info]: DELETE /api/modules/1
+2024-10-16 22:32:45 [info]: PATCH /api/lessons/1
+2024-10-16 22:32:45 [info]: DELETE /api/lessons/1
+2024-10-16 22:32:45 [info]: GET /api/courses
+2024-10-16 22:32:45 [info]: GET /api/courses/1
+2024-10-16 22:32:45 [info]: GET /api/courses/999
+2024-10-16 22:32:45 [info]: GET /api/courses/invalid-id
+2024-10-16 22:32:45 [info]: POST /api/courses
+2024-10-16 22:32:45 [info]: PATCH /api/courses/1
+2024-10-16 22:32:45 [info]: GET /api/courses/999
+2024-10-16 22:32:45 [info]: DELETE /api/courses/1
+2024-10-16 22:34:04 [info]: GET /api/modules
+2024-10-16 22:34:04 [info]: GET /api/lessons
+2024-10-16 22:34:04 [info]: GET /api/modules/1
+2024-10-16 22:34:04 [info]: GET /api/lessons/1
+2024-10-16 22:34:04 [info]: GET /api/lessons/999
+2024-10-16 22:34:04 [info]: GET /api/lessons/invalid-id
+2024-10-16 22:34:04 [info]: POST /api/modules
+2024-10-16 22:34:04 [info]: PATCH /api/modules/1
+2024-10-16 22:34:04 [info]: POST /api/lessons
+2024-10-16 22:34:04 [info]: DELETE /api/modules/1
+2024-10-16 22:34:04 [info]: PATCH /api/lessons/1
+2024-10-16 22:34:04 [info]: DELETE /api/lessons/1
+2024-10-16 22:34:05 [info]: GET /api/courses
+2024-10-16 22:34:05 [info]: GET /api/courses/1
+2024-10-16 22:34:05 [info]: GET /api/courses/999
+2024-10-16 22:34:05 [info]: GET /api/courses/invalid-id
+2024-10-16 22:34:05 [info]: POST /api/courses
+2024-10-16 22:34:05 [info]: PATCH /api/courses/1
+2024-10-16 22:34:05 [info]: GET /api/courses/999
+2024-10-16 22:34:05 [info]: DELETE /api/courses/1
+2024-10-16 22:36:40 [info]: GET /api/lessons
+2024-10-16 22:36:40 [info]: GET /api/courses
+2024-10-16 22:36:40 [info]: GET /api/modules
+2024-10-16 22:36:40 [info]: GET /api/modules/1
+2024-10-16 22:36:40 [info]: GET /api/lessons/1
+2024-10-16 22:36:40 [info]: GET /api/courses/1
+2024-10-16 22:36:40 [info]: GET /api/lessons/999
+2024-10-16 22:36:40 [info]: GET /api/courses/999
+2024-10-16 22:36:40 [info]: GET /api/lessons/invalid-id
+2024-10-16 22:36:40 [info]: GET /api/courses/invalid-id
+2024-10-16 22:36:40 [info]: POST /api/modules
+2024-10-16 22:36:40 [info]: PATCH /api/modules/1
+2024-10-16 22:36:40 [info]: POST /api/courses
+2024-10-16 22:36:40 [info]: POST /api/lessons
+2024-10-16 22:36:40 [info]: DELETE /api/modules/1
+2024-10-16 22:36:40 [info]: PATCH /api/courses/1
+2024-10-16 22:36:40 [info]: GET /api/courses/999
+2024-10-16 22:36:40 [info]: PATCH /api/lessons/1
+2024-10-16 22:36:40 [info]: DELETE /api/courses/1
+2024-10-16 22:36:40 [info]: DELETE /api/lessons/1
+2024-10-16 22:40:22 [info]: GET /api/lessons
+2024-10-16 22:40:22 [info]: GET /api/courses
+2024-10-16 22:40:22 [info]: GET /api/courses/1
+2024-10-16 22:40:22 [info]: GET /api/lessons/1
+2024-10-16 22:40:22 [info]: GET /api/courses/999
+2024-10-16 22:40:22 [info]: GET /api/lessons/999
+2024-10-16 22:40:22 [info]: GET /api/courses/invalid-id
+2024-10-16 22:40:22 [info]: GET /api/lessons/invalid-id
+2024-10-16 22:40:22 [info]: POST /api/courses
+2024-10-16 22:40:22 [info]: POST /api/lessons
+2024-10-16 22:40:22 [info]: PATCH /api/courses/1
+2024-10-16 22:40:22 [info]: GET /api/courses/999
+2024-10-16 22:40:22 [info]: PATCH /api/lessons/1
+2024-10-16 22:40:22 [info]: DELETE /api/courses/1
+2024-10-16 22:40:22 [info]: DELETE /api/lessons/1
+2024-10-16 22:40:22 [info]: GET /api/modules
+2024-10-16 22:40:22 [info]: GET /api/modules/1
+2024-10-16 22:40:22 [info]: POST /api/modules
+2024-10-16 22:40:22 [info]: PATCH /api/modules/1
+2024-10-16 22:40:22 [info]: DELETE /api/modules/1
+2024-10-16 22:47:28 [info]: GET /api/modules
+2024-10-16 22:47:28 [info]: GET /api/lessons
+2024-10-16 22:47:29 [info]: GET /api/modules/1
+2024-10-16 22:47:29 [info]: GET /api/lessons/1
+2024-10-16 22:47:29 [info]: GET /api/lessons/999
+2024-10-16 22:47:29 [info]: GET /api/lessons/invalid-id
+2024-10-16 22:47:29 [info]: POST /api/modules
+2024-10-16 22:47:29 [info]: POST /api/lessons
+2024-10-16 22:47:29 [info]: PATCH /api/modules/1
+2024-10-16 22:47:29 [info]: DELETE /api/modules/1
+2024-10-16 22:47:29 [info]: PATCH /api/lessons/1
+2024-10-16 22:47:29 [info]: DELETE /api/lessons/1
+2024-10-16 22:47:30 [info]: GET /api/courses
+2024-10-16 22:47:30 [info]: GET /api/courses/1
+2024-10-16 22:47:30 [info]: GET /api/courses/999
+2024-10-16 22:47:30 [info]: GET /api/courses/invalid-id
+2024-10-16 22:47:30 [info]: POST /api/courses
+2024-10-16 22:47:30 [info]: PATCH /api/courses/1
+2024-10-16 22:47:30 [info]: GET /api/courses/999
+2024-10-16 22:47:30 [info]: DELETE /api/courses/1
+2024-10-16 22:50:47 [info]: POST /api/courses
+2024-10-16 22:51:12 [info]: GET /api/lessons
+2024-10-16 22:51:12 [info]: GET /api/modules
+2024-10-16 22:51:12 [info]: GET /api/modules/1
+2024-10-16 22:51:12 [info]: GET /api/lessons/1
+2024-10-16 22:51:12 [info]: GET /api/lessons/999
+2024-10-16 22:51:12 [info]: GET /api/lessons/invalid-id
+2024-10-16 22:51:12 [info]: POST /api/modules
+2024-10-16 22:51:12 [info]: POST /api/lessons
+2024-10-16 22:51:12 [info]: PATCH /api/modules/1
+2024-10-16 22:51:12 [info]: DELETE /api/modules/1
+2024-10-16 22:51:12 [info]: PATCH /api/lessons/1
+2024-10-16 22:51:12 [info]: DELETE /api/lessons/1
+2024-10-16 22:51:12 [info]: GET /api/courses
+2024-10-16 22:51:12 [info]: GET /api/courses/1
+2024-10-16 22:51:12 [info]: GET /api/courses/999
+2024-10-16 22:51:12 [info]: GET /api/courses/invalid-id
+2024-10-16 22:51:12 [info]: POST /api/courses
+2024-10-16 22:51:13 [info]: PATCH /api/courses/1
+2024-10-16 22:51:13 [info]: GET /api/courses/999
+2024-10-16 22:51:13 [info]: DELETE /api/courses/1
+2024-10-16 22:58:54 [info]: GET /api/modules
+2024-10-16 22:58:54 [info]: GET /api/courses
+2024-10-16 22:58:54 [info]: GET /api/modules/1
+2024-10-16 22:58:54 [info]: GET /api/courses/1
+2024-10-16 22:58:54 [info]: GET /api/courses/999
+2024-10-16 22:58:54 [info]: GET /api/courses/invalid-id
+2024-10-16 22:58:54 [info]: POST /api/modules
+2024-10-16 22:58:54 [info]: POST /api/courses
+2024-10-16 22:58:54 [info]: PATCH /api/modules/1
+2024-10-16 22:58:54 [info]: DELETE /api/modules/1
+2024-10-16 22:58:54 [info]: PATCH /api/courses/1
+2024-10-16 22:58:54 [info]: GET /api/courses/999
+2024-10-16 22:58:54 [info]: DELETE /api/courses/1
+2024-10-16 22:58:55 [info]: GET /api/lessons
+2024-10-16 22:58:55 [info]: GET /api/lessons/1
+2024-10-16 22:58:55 [info]: GET /api/lessons/999
+2024-10-16 22:58:55 [info]: GET /api/lessons/invalid-id
+2024-10-16 22:58:55 [info]: POST /api/lessons
+2024-10-16 22:58:55 [info]: PATCH /api/lessons/1
+2024-10-16 22:58:55 [info]: DELETE /api/lessons/1
+2024-10-16 23:00:27 [info]: GET /api/courses
+2024-10-16 23:00:27 [info]: GET /api/modules
+2024-10-16 23:00:27 [info]: GET /api/courses/1
+2024-10-16 23:00:27 [info]: GET /api/modules/1
+2024-10-16 23:00:27 [info]: GET /api/courses/999
+2024-10-16 23:00:27 [info]: GET /api/courses/invalid-id
+2024-10-16 23:00:27 [info]: POST /api/modules
+2024-10-16 23:00:27 [info]: POST /api/courses
+2024-10-16 23:00:27 [info]: PATCH /api/courses/1
+2024-10-16 23:00:27 [info]: PATCH /api/modules/1
+2024-10-16 23:00:27 [info]: GET /api/courses/999
+2024-10-16 23:00:27 [info]: DELETE /api/modules/1
+2024-10-16 23:00:27 [info]: DELETE /api/courses/1
+2024-10-16 23:00:28 [info]: GET /api/lessons
+2024-10-16 23:00:28 [info]: GET /api/lessons/1
+2024-10-16 23:00:28 [info]: GET /api/lessons/999
+2024-10-16 23:00:28 [info]: GET /api/lessons/invalid-id
+2024-10-16 23:00:28 [info]: POST /api/lessons
+2024-10-16 23:00:28 [info]: PATCH /api/lessons/1
+2024-10-16 23:00:28 [info]: DELETE /api/lessons/1
+2024-10-16 23:01:34 [info]: GET /api/modules
+2024-10-16 23:01:34 [info]: GET /api/courses
+2024-10-16 23:01:34 [info]: GET /api/lessons
+2024-10-16 23:01:34 [info]: GET /api/lessons/1
+2024-10-16 23:01:34 [info]: GET /api/modules/1
+2024-10-16 23:01:34 [info]: GET /api/courses/1
+2024-10-16 23:01:34 [info]: GET /api/courses/999
+2024-10-16 23:01:34 [info]: GET /api/lessons/999
+2024-10-16 23:01:34 [info]: GET /api/courses/invalid-id
+2024-10-16 23:01:34 [info]: GET /api/lessons/invalid-id
+2024-10-16 23:01:34 [info]: POST /api/modules
+2024-10-16 23:01:34 [info]: POST /api/courses
+2024-10-16 23:01:34 [info]: POST /api/lessons
+2024-10-16 23:01:34 [info]: PATCH /api/modules/1
+2024-10-16 23:01:34 [info]: PATCH /api/lessons/1
+2024-10-16 23:01:34 [info]: DELETE /api/modules/1
+2024-10-16 23:01:34 [info]: PATCH /api/courses/1
+2024-10-16 23:01:34 [info]: GET /api/courses/999
+2024-10-16 23:01:34 [info]: DELETE /api/lessons/1
+2024-10-16 23:01:34 [info]: DELETE /api/courses/1
+2024-10-16 23:01:45 [info]: GET /api/modules
+2024-10-16 23:01:45 [info]: GET /api/courses
+2024-10-16 23:01:45 [info]: GET /api/courses/1
+2024-10-16 23:01:45 [info]: GET /api/modules/1
+2024-10-16 23:01:45 [info]: GET /api/courses/999
+2024-10-16 23:01:45 [info]: GET /api/courses/invalid-id
+2024-10-16 23:01:45 [info]: POST /api/modules
+2024-10-16 23:01:45 [info]: POST /api/courses
+2024-10-16 23:01:45 [info]: PATCH /api/modules/1
+2024-10-16 23:01:45 [info]: DELETE /api/modules/1
+2024-10-16 23:01:45 [info]: PATCH /api/courses/1
+2024-10-16 23:01:45 [info]: GET /api/courses/999
+2024-10-16 23:01:45 [info]: DELETE /api/courses/1
+2024-10-16 23:01:46 [info]: GET /api/lessons
+2024-10-16 23:01:46 [info]: GET /api/lessons/1
+2024-10-16 23:01:46 [info]: GET /api/lessons/999
+2024-10-16 23:01:46 [info]: GET /api/lessons/invalid-id
+2024-10-16 23:01:46 [info]: POST /api/lessons
+2024-10-16 23:01:46 [info]: PATCH /api/lessons/1
+2024-10-16 23:01:46 [info]: DELETE /api/lessons/1
+2024-10-16 23:02:06 [info]: GET /api/lessons
+2024-10-16 23:02:06 [info]: GET /api/modules
+2024-10-16 23:02:06 [info]: GET /api/lessons/1
+2024-10-16 23:02:06 [info]: GET /api/modules/1
+2024-10-16 23:02:06 [info]: GET /api/courses
+2024-10-16 23:02:06 [info]: GET /api/lessons/999
+2024-10-16 23:02:06 [info]: GET /api/lessons/invalid-id
+2024-10-16 23:02:06 [info]: GET /api/courses/1
+2024-10-16 23:02:06 [info]: POST /api/modules
+2024-10-16 23:02:06 [info]: POST /api/lessons
+2024-10-16 23:02:06 [info]: GET /api/courses/999
+2024-10-16 23:02:06 [info]: GET /api/courses/invalid-id
+2024-10-16 23:02:06 [info]: PATCH /api/modules/1
+2024-10-16 23:02:06 [info]: PATCH /api/lessons/1
+2024-10-16 23:02:06 [info]: DELETE /api/modules/1
+2024-10-16 23:02:06 [info]: DELETE /api/lessons/1
+2024-10-16 23:02:06 [info]: POST /api/courses
+2024-10-16 23:02:06 [info]: PATCH /api/courses/1
+2024-10-16 23:02:06 [info]: GET /api/courses/999
+2024-10-16 23:02:06 [info]: DELETE /api/courses/1
+2024-10-16 23:04:30 [info]: GET /api/lessons
+2024-10-16 23:04:30 [info]: GET /api/modules
+2024-10-16 23:04:30 [info]: GET /api/courses
+2024-10-16 23:04:30 [info]: GET /api/lessons/1
+2024-10-16 23:04:30 [info]: GET /api/modules/1
+2024-10-16 23:04:30 [info]: GET /api/courses/1
+2024-10-16 23:04:30 [info]: GET /api/lessons/999
+2024-10-16 23:04:30 [info]: GET /api/courses/999
+2024-10-16 23:04:30 [info]: GET /api/lessons/invalid-id
+2024-10-16 23:04:30 [info]: GET /api/courses/invalid-id
+2024-10-16 23:04:30 [info]: POST /api/modules
+2024-10-16 23:04:30 [info]: POST /api/lessons
+2024-10-16 23:04:30 [info]: POST /api/courses
+2024-10-16 23:04:30 [info]: PATCH /api/modules/1
+2024-10-16 23:04:30 [info]: PATCH /api/lessons/1
+2024-10-16 23:04:30 [info]: PATCH /api/courses/1
+2024-10-16 23:04:30 [info]: DELETE /api/modules/1
+2024-10-16 23:04:30 [info]: DELETE /api/lessons/1
+2024-10-16 23:04:30 [info]: GET /api/courses/999
+2024-10-16 23:04:30 [info]: DELETE /api/courses/1
+2024-10-16 23:09:00 [info]: GET /api/lessons
+2024-10-16 23:09:00 [info]: GET /api/modules
+2024-10-16 23:09:00 [info]: GET /api/modules/1
+2024-10-16 23:09:00 [info]: GET /api/lessons/1
+2024-10-16 23:09:00 [info]: GET /api/lessons/999
+2024-10-16 23:09:00 [info]: GET /api/lessons/invalid-id
+2024-10-16 23:09:00 [info]: POST /api/modules
+2024-10-16 23:09:00 [info]: POST /api/lessons
+2024-10-16 23:09:00 [info]: PATCH /api/modules/1
+2024-10-16 23:09:00 [info]: DELETE /api/modules/1
+2024-10-16 23:09:00 [info]: PATCH /api/lessons/1
+2024-10-16 23:09:00 [info]: DELETE /api/lessons/1
+2024-10-16 23:09:00 [info]: GET /api/courses
+2024-10-16 23:09:00 [info]: GET /api/courses/1
+2024-10-16 23:09:00 [info]: GET /api/courses/999
+2024-10-16 23:09:00 [info]: GET /api/courses/invalid-id
+2024-10-16 23:09:00 [info]: POST /api/courses
+2024-10-16 23:09:00 [info]: PATCH /api/courses/1
+2024-10-16 23:09:00 [info]: GET /api/courses/999
+2024-10-16 23:09:00 [info]: DELETE /api/courses/1
+2024-10-16 23:55:37 [info]: GET /api/modules
+2024-10-16 23:55:37 [info]: GET /api/lessons
+2024-10-16 23:55:37 [info]: GET /api/courses
+2024-10-16 23:55:37 [info]: GET /api/courses/1
+2024-10-16 23:55:37 [info]: GET /api/modules/1
+2024-10-16 23:55:37 [info]: GET /api/lessons/1
+2024-10-16 23:55:37 [info]: GET /api/courses/999
+2024-10-16 23:55:37 [info]: GET /api/lessons/999
+2024-10-16 23:55:37 [info]: GET /api/courses/invalid-id
+2024-10-16 23:55:37 [info]: GET /api/lessons/invalid-id
+2024-10-16 23:55:37 [info]: POST /api/modules
+2024-10-16 23:55:37 [info]: POST /api/courses
+2024-10-16 23:55:37 [info]: POST /api/lessons
+2024-10-16 23:55:37 [info]: PATCH /api/modules/1
+2024-10-16 23:55:37 [info]: PATCH /api/lessons/1
+2024-10-16 23:55:37 [info]: PATCH /api/courses/1
+2024-10-16 23:55:37 [info]: DELETE /api/modules/1
+2024-10-16 23:55:37 [info]: DELETE /api/lessons/1
+2024-10-16 23:55:37 [info]: GET /api/courses/999
+2024-10-16 23:55:38 [info]: DELETE /api/courses/1

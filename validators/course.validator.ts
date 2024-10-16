@@ -28,7 +28,6 @@ export const editModuleSchema = Joi.object({
 });
 
 export const courseSchema = Joi.object({
-  id: Joi.number().integer().positive(),
   title: Joi.string().required(),
   description: Joi.string().required(),
   modules: Joi.array().items(moduleSchema).required(),

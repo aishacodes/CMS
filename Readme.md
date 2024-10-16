@@ -155,3 +155,21 @@ Here are some useful scripts for managing and running the project.
 - `POST /lessons` — Create a new lesson.
 - `PATCH /lessons/{id}` — Update an existing lesson.
 - `DELETE /lessons/{id}` — Delete a lesson by ID.
+
+## Testing
+
+The project includes unit and integration tests using Jest and supatest.
+
+**Running tests**:
+
+Using npm:
+
+```bash
+npm test
+```
+
+Or using yarn:
+
+```bash
+yarn test
+```

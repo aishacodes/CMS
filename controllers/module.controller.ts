@@ -103,7 +103,7 @@ export const updateModule = async (
       modules[moduleIndex] = { ...modules[moduleIndex], ...moduleToUpdate };
       await addModulesToFile(modules);
     }
-    res.status(201).json({
+    res.status(200).json({
       message: "Module updated succcessfully",
       module: { ...modules[moduleIndex] },
     });

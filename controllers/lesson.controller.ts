@@ -23,6 +23,11 @@ export const getLessonById = async (
   try {
     const lessonId = Number(req.params.id);
 
+    if (isNaN(lessonId)) {
+      res.status(400).json({ message: "Invalid lesson ID" });
+      return;
+    }
+
     const lessons = await getLessonsFromFile();
     const lessonExist = lessons.find(
       (lesson: ILesson) => lesson.id === lessonId
@@ -101,7 +106,7 @@ export const updateLesson = async (
       lessons[lessonIndex] = { ...lessons[lessonIndex], ...lessonToUpdate };
       await addLessonsToFile(lessons);
     }
-    res.status(201).json({
+    res.status(200).json({
       message: "Lesson updated succcessfully",
       lesson: { ...lessons[lessonIndex] },
     });
