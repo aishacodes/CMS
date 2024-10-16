@@ -3,3 +3,15 @@
 2024-10-14 23:42:26 [info]: GET /api/courses
 2024-10-14 23:42:37 [info]: GET /api/courses/1
 2024-10-14 23:42:44 [info]: PATCH /api/courses/1
+2024-10-16 19:45:46 [info]: GET /api-docs/
+2024-10-16 19:45:46 [info]: GET /api-docs/swagger-ui.css
+2024-10-16 19:45:46 [info]: GET /api-docs/swagger-ui-bundle.js
+2024-10-16 19:45:46 [info]: GET /api-docs/swagger-ui-standalone-preset.js
+2024-10-16 19:45:46 [info]: GET /api-docs/swagger-ui-init.js
+2024-10-16 19:45:46 [info]: GET /api-docs/swagger-ui-standalone-preset.js
+2024-10-16 19:45:46 [info]: GET /api-docs/swagger-ui-bundle.js
+2024-10-16 19:45:46 [info]: GET /api-docs/swagger-ui-init.js
+2024-10-16 19:45:57 [info]: GET /api/courses
+2024-10-16 19:46:16 [info]: GET /api/courses/2
+2024-10-16 19:46:21 [info]: GET /api/courses/1
+2024-10-16 19:47:45 [info]: GET /api/modules/1
