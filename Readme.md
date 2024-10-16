@@ -73,7 +73,7 @@ This project is a **Course Management System** built using **TypeScript** and **
 
 5. **Access the API**:
 
-   The API will run at `http://localhost:3001`.
+   The API will run at `http://localhost:3001/api`.
 
 ---
 
@@ -134,24 +134,24 @@ Here are some useful scripts for managing and running the project.
 
 ### Courses
 
-- GET /courses — Get all courses.
-- GET /courses/{id} — Get a specific course by ID.
-- POST /courses — Create a new course.
-- PATCH /courses/{id} — Update an existing course.
-- DELETE /courses/{id} — Delete a course by ID.
+- `GET /courses` — Get all courses.
+- `GET /courses/{id}` — Get a specific course by ID.
+- `POST /courses` — Create a new course.
+- `PATCH /courses/{id}` — Update an existing course.
+- `DELETE /courses/{id}` — Delete a course by ID.
 
 ### Modules
 
-- GET /modules — Get all modules.
-- GET /modules/{id} — Get a specific module by ID.
-- POST /modules — Create a new module.
-- PATCH /modules/{id} — Update an existing module.
-- DELETE /modules/{id} — Delete a module by ID.
+- `GET /modules` — Get all modules.
+- `GET /modules/{id}` — Get a specific module by ID.
+- `POST /modules` — Create a new module.
+- `PATCH /modules/{id}` — Update an existing module.
+- `DELETE /modules/{id}` — Delete a module by ID.
 
 ### Lessons
 
-- GET /lessons — Get all lessons.
-- GET /lessons/{id} — Get a specific lesson by ID.
-- POST /lessons — Create a new lesson.
-- PATCH /lessons/{id} — Update an existing lesson.
-- DELETE /lessons/{id} — Delete a lesson by ID.
+- `GET /lessons` — Get all lessons.
+- `GET /lessons/{id}` — Get a specific lesson by ID.
+- `POST /lessons` — Create a new lesson.
+- `PATCH /lessons/{id}` — Update an existing lesson.
+- `DELETE /lessons/{id}` — Delete a lesson by ID.

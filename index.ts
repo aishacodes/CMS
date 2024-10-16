@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(requestLogger);
 app.use(logRequests);
 
-app.get("/", (request, response) => {
+app.get("/api", (request, response) => {
   response.send("<h1>Welcome to my servers!</h1>");
 });
 
