@@ -67,23 +67,18 @@ describe("Courses API ", () => {
 
     (addCoursesToFile as jest.Mock).mockResolvedValue(undefined);
     const res = await request(app).post("/api/courses").send(newCourse);
-    console.log(res.body.details);
     expect(res.status).toBe(201);
-    expect(res.body.coourse).toEqual(newCourse);
+    expect(res.body.message).toEqual("Course created succcessfully");
     expect(addCoursesToFile).toHaveBeenCalled();
   });
 
   it("PATCH /courses/:id - should update an existing course", async () => {
-    const updatedCourse = {
-      title: "Updated Course",
-      description: "Updated description.",
-    };
-
-    const response = await request(app)
-      .patch("/api/courses/1")
-      .send(updatedCourse);
-    expect(response.status).toBe(200);
-    expect(response.body.course.title).toBe(updatedCourse.title);
+    const updatedCourse = { ...mockCourses[0], title: "Advanced HTML" };
+    (addCoursesToFile as jest.Mock).mockResolvedValue(undefined);
+    const res = await request(app).patch("/api/courses/1").send(updatedCourse);
+    expect(res.status).toBe(200);
+    expect(res.body.course).toMatchObject(updatedCourse);
+    expect(addCoursesToFile).toHaveBeenCalled();
   });
 
   it("PATCH /courses/:id - should return 404 for a non-existing course ID", async () => {

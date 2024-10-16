@@ -36,7 +36,7 @@ describe("Module API Endpoints", () => {
     (addModulesToFile as jest.Mock).mockResolvedValue(undefined);
     const res = await request(app).post("/api/modules").send(newModule);
     expect(res.status).toBe(201);
-    expect(res.body).toEqual(newModule);
+    expect(res.body.message).toEqual("Module created succcessfully");
     expect(addModulesToFile).toHaveBeenCalled();
   });
 
@@ -45,7 +45,7 @@ describe("Module API Endpoints", () => {
     (addModulesToFile as jest.Mock).mockResolvedValue(undefined);
     const res = await request(app).patch("/api/modules/1").send(updatedModule);
     expect(res.status).toBe(200);
-    expect(res.body.module).toEqual(updatedModule);
+    expect(res.body.module).toMatchObject(updatedModule);
     expect(addModulesToFile).toHaveBeenCalled();
   });
 

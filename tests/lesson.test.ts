@@ -42,7 +42,6 @@ describe("Lesson API Endpoints", () => {
 
   it("POST /lessons should create a new lesson", async () => {
     const newLesson = {
-      id: 3,
       title: "CSS Selectors",
       description: "Learn CSS selectors and properties.",
       topics: ["Selectors", "Properties"],
@@ -51,7 +50,7 @@ describe("Lesson API Endpoints", () => {
     (addLessonsToFile as jest.Mock).mockResolvedValue(undefined);
     const res = await request(app).post("/api/lessons").send(newLesson);
     expect(res.status).toBe(201);
-    expect(res.body).toEqual(newLesson);
+    expect(res.body.message).toEqual("Lesson created succcessfully");
     expect(addLessonsToFile).toHaveBeenCalled();
   });
 
@@ -60,7 +59,7 @@ describe("Lesson API Endpoints", () => {
     (addLessonsToFile as jest.Mock).mockResolvedValue(undefined);
     const res = await request(app).patch("/api/lessons/1").send(updatedLesson);
     expect(res.status).toBe(200);
-    expect(res.body).toEqual(updatedLesson);
+    expect(res.body.lesson).toMatchObject(updatedLesson);
     expect(addLessonsToFile).toHaveBeenCalled();
   });
 

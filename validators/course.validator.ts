@@ -12,6 +12,7 @@ export const lessonSchema = Joi.object({
   content: Joi.array().items(contentSchema).required(),
 });
 export const editLessonSchema = Joi.object({
+  id: Joi.number().integer().positive(),
   title: Joi.string(),
   description: Joi.string(),
   topics: Joi.array().items(Joi.string()),
@@ -23,6 +24,7 @@ export const moduleSchema = Joi.object({
 });
 
 export const editModuleSchema = Joi.object({
+  id: Joi.number().integer().positive(),
   title: Joi.string(),
   lessons: Joi.array().items(lessonSchema),
 });
@@ -34,6 +36,7 @@ export const courseSchema = Joi.object({
 });
 
 export const editCourseSchema = Joi.object({
+  id: Joi.number().integer().positive(),
   title: Joi.string(),
   description: Joi.string(),
   modules: Joi.array().items(moduleSchema),
