@@ -74,12 +74,20 @@ export const deleteModule = async (
   try {
     const moduleId = req.params.id;
     let modules = await getModulesFromFile();
-    modules = modules.filter(
-      (module: IModule) => module.id !== Number(moduleId)
-    );
-    await addModulesToFile(modules);
 
-    res.status(204).end();
+    const moduleExist = modules.find(
+      (module: IModule) => module.id === Number(moduleId)
+    );
+    if (moduleExist) {
+      modules = modules.filter(
+        (module: IModule) => module.id !== Number(moduleId)
+      );
+      await addModulesToFile(modules);
+
+      res.status(204).end();
+    } else {
+      res.status(404).json({ message: "Module not found" });
+    }
   } catch (error) {
     next(error);
   }
@@ -102,11 +110,14 @@ export const updateModule = async (
     if (moduleIndex !== -1) {
       modules[moduleIndex] = { ...modules[moduleIndex], ...moduleToUpdate };
       await addModulesToFile(modules);
+
+      res.status(200).json({
+        message: "Module updated succcessfully",
+        module: { ...modules[moduleIndex] },
+      });
+    } else {
+      res.status(404).json({ message: "Module not found" });
     }
-    res.status(200).json({
-      message: "Module updated succcessfully",
-      module: { ...modules[moduleIndex] },
-    });
   } catch (error) {
     next(error);
   }
