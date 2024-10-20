@@ -40,6 +40,10 @@ export const swaggerOptions = {
         Module: {
           type: "object",
           properties: {
+            id: {
+              type: "integer",
+              example: 1,
+            },
             title: {
               type: "string",
               example: "HTML Basics",
@@ -55,6 +59,10 @@ export const swaggerOptions = {
         Lesson: {
           type: "object",
           properties: {
+            id: {
+              type: "integer",
+              example: 1,
+            },
             title: {
               type: "string",
               example: "Understanding HTML Structure",
