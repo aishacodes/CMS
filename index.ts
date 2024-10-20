@@ -9,8 +9,19 @@ import swaggerJSDoc from "swagger-jsdoc";
 import { swaggerOptions } from "./middlewares/swagger";
 import { requestLogger } from "./middlewares/logger";
 import { logRequests } from "./middlewares/loggers";
+import rateLimit from "express-rate-limit";
 
 const app = express();
+
+const limiter = rateLimit({
+  windowMs: 15 * 60 * 1000,
+  max: 100,
+  message: "Too many requests from this IP, please try again after 15 minutes",
+  standardHeaders: true,
+  legacyHeaders: false,
+});
+
+app.use(limiter);
 
 app.use(express.json());
 
